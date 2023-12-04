@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white min-h-screen relative z-0">
+  <div class="bg-white min-h-screen relative z-0 py-[114px]">
     <div class="top-0 h-full w-full absolute blur-[9px] z-[-1] bg-white">
       <img 
         class="object-cover object-center w-full h-full opacity-40" 
@@ -7,7 +7,7 @@
         src="/images/bg.jpg"
         alt="background office setting">
     </div>
-    <h1 class="text-red text-2xl font-medium uppercase text-center pt-[114px]">Calculating Your Total Costs</h1>
+    <h1 class="text-red text-2xl font-medium uppercase text-center mb-14">Calculating Your Total Costs</h1>
     <slot />
   </div>
 </template>

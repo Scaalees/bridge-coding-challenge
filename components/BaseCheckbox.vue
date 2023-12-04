@@ -17,7 +17,7 @@
       ]"
     >
       <CircleCheck :class="[
-        'w-8 h-8 transition-colors duration-200 ease-in-out',
+        'w-8 h-8 transition-colors duration-200 ease-in-out flex-shrink-0',
         { 'fill-purple': !checked },
         { 'fill-white': checked }
       ]" />
