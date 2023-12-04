@@ -18,7 +18,9 @@
       <span class="font-bold uppercase">Total</span>
       <span class="text-[28px] text-red">£{{ store.getTotalEstimate.toFixed(2) }}</span>
     </div>
-    <!-- <nuxt-link>Continue</nuxt-link> -->
+    <BaseButton to="/questions">
+      Continue
+    </BaseButton>
   </div>
 </template>
 
