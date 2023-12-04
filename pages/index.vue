@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-red text-2xl font-medium uppercase text-center">Initial Setup Complete</h1>
+  <div>Content Here</div>
 </template>
 
 <script setup lang="ts">
