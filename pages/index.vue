@@ -2,6 +2,7 @@
   <div class="grid mb-8 grid-cols-1 gap-x-4 gap-y-8 mx-4
     lg:mx-auto lg:max-w-[1014px] md:grid-cols-3">
     <BaseCheckbox
+      :key="option"
       v-for="option in store.options"
       v-model="store.options"
       :name="option.name"
